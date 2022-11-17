@@ -1,1 +1,0 @@
-# best-react-group-project
