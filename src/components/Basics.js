@@ -1,10 +1,7 @@
 import final from '../images/final.png'
 import whatToDelete from '../images/whatToDelete.png'
 import initial from '../images/initial.png'
-import createIt from '../images/create.png'
-import buildIt from '../images/build.png'
-import importIt from '../images/import.png'
-
+import CreateReactComponent from '../sub-components/CreateReactComponent';
 
 
 function ReactBasics() {
@@ -56,22 +53,7 @@ function ReactBasics() {
         <p>'Ctrl+SHIFT+i' to access your developer tool on the web paged that just opened and check to solve the errors: </p>
         <p>you have deleted some files and you have to delete the connections to the files that are not there anymore</p>
       </section>
-      <section className="react-basics__components">
-        <h3>Create your first react Component</h3>
-        <p>In your <code>src</code> folder create a file and name it with a capital letter (Pascal case) and end it with .js or .jsx 
-        </p>
-        <div className="react-basic__images">
-          <img src={createIt} alt="creating" />
-        </div>
-        <p>Build your component. Don't forget, a component can only return one element</p>
-        <div className="react-basic__images">
-          <img src={buildIt} alt="building" />
-        </div>
-        <p>Import the created component in App and use it</p>
-        <div className="react-basic__images">
-          <img src={importIt} alt="import it" />
-        </div>
-      </section>
+      <CreateReactComponent/>
       <section className="react-basics__jsx">
         <h3>Writing JSX</h3>
         <p>Be prepared to write code in JSX, that is HTML with a twist and flavoured with JavaScript. Confusing at first, I know, but nothing simpler:</p>

@@ -18,50 +18,17 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route
-          path="/"
-          element={<Home />}
-        />
-        <Route
-          path="/info"
-          element={<Info />}
-        />
-        <Route
-          path="/needToKnow"
-          element={<Know />}
-        />
-        <Route
-          path="/basics"
-          element={<Basics />}
-        />
-        <Route
-          path="/components"
-          element={<Components />}
-        />
-        <Route
-          path="/state"
-          element={<State />}
-        />
-        <Route
-          path="/conditionalRendering"
-          element={<ConditionalRendering />}
-        />
-        <Route
-          path="/eventListeners"
-          element={<EventListeners />}
-        />
-        <Route
-          path="/routerSection"
-          element={<RouterSection />}
-        />
-        <Route
-          path="/contextApi"
-          element={<ContextApi />}
-        />
-        <Route
-          path="/useReducer"
-          element={<UseReducer />}
-        />
+        <Route path="/" element={<Home />}/>
+        <Route path="/info" element={<Info />} />
+        <Route path="/needToKnow" element={<Know />} />
+        <Route path="/basics" element={<Basics />} />
+        <Route path="/components" element={<Components />} />
+        <Route path="/state"  element={<State />} />
+        <Route path="/conditionalRendering" element={<ConditionalRendering />}/>
+        <Route path="/eventListeners" element={<EventListeners />} />
+        <Route path="/routerSection" element={<RouterSection />} />
+        <Route path="/contextApi" element={<ContextApi />}/>
+        <Route path="/useReducer" element={<UseReducer />} />
       </Routes>
     </BrowserRouter>
   );
