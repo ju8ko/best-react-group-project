@@ -4,8 +4,8 @@ import importIt from '../images/import.png'
 
 function CreateReactComponent() {
     return ( 
-        <div className="create-react-component">
-            <section className="react-basics__components">
+        // <section className="create-react-component">
+      <section className="react-basics__components">
         <h3>Create your first react Component</h3>
         <p>In your <code>src</code> folder create a file and name it with a capital letter (Pascal case) and end it with .js or .jsx 
         </p>
@@ -21,7 +21,7 @@ function CreateReactComponent() {
           <img src={importIt} alt="import it" />
         </div>
       </section>
-        </div>
+        // </section>
      );
 }
 
