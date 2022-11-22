@@ -1,6 +1,6 @@
 
-import followup from '../images/children-followup.png'
-import setup from '../images/children-setup.png'
+import followup from '../../images/children-followup.png'
+import setup from '../../images/children-setup.png'
 
 function ChildrenSection() {
     return ( 

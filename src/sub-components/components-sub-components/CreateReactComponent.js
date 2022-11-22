@@ -1,6 +1,6 @@
-import createIt from '../images/create.png'
-import buildIt from '../images/build.png'
-import importIt from '../images/import.png'
+import createIt from '../../images/create.png'
+import buildIt from '../../images/build.png'
+import importIt from '../../images/import.png'
 
 function CreateReactComponent() {
     return ( 

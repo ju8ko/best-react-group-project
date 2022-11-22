@@ -1,6 +1,6 @@
-import create1 from '../images/createComponent-1.png'
-import create2 from '../images/createComponent-2.png'
-import create3 from '../images/createComponent-3.png'
+import create1 from '../../images/createComponent-1.png'
+import create2 from '../../images/createComponent-2.png'
+import create3 from '../../images/createComponent-3.png'
 
 function ReUsableUi() {
     return ( 

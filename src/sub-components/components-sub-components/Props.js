@@ -1,6 +1,6 @@
-import firstImg from '../images/props-1.png'
-import secondImg from '../images/props-2.png'
-import thirdImg from '../images/props-3.png'
+import firstImg from '../../images/props-1.png'
+import secondImg from '../../images/props-2.png'
+import thirdImg from '../../images/props-3.png'
 
 function Props() {
     return ( 

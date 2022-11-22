@@ -1,9 +1,8 @@
-import CreateReactComponent from '../sub-components/CreateReactComponent';
-
-import ReUsableUi from '../sub-components/ReUsableUI';
-import Props from '../sub-components/Props';
-import ChildrenSection from '../sub-components/ChildrenSection'
-import ComponentsSection from '../sub-components/ComponentsSection';
+import CreateReactComponent from '../sub-components/components-sub-components/CreateReactComponent';
+import ReUsableUi from '../sub-components/components-sub-components/ReUsableUI';
+import Props from '../sub-components/components-sub-components/Props';
+import ChildrenSection from '../sub-components/components-sub-components/ChildrenSection'
+import ComponentsSection from '../sub-components/components-sub-components/ComponentsSection';
 
 
 

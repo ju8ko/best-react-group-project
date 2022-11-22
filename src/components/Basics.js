@@ -1,7 +1,7 @@
 import final from '../images/final.png'
 import whatToDelete from '../images/whatToDelete.png'
 import initial from '../images/initial.png'
-import CreateReactComponent from '../sub-components/CreateReactComponent';
+import CreateReactComponent from '../sub-components/components-sub-components/CreateReactComponent';
 
 
 function ReactBasics() {
