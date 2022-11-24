@@ -16,7 +16,7 @@ function ParamsSection() {
             <div>
                 <img src={setUseParams2} alt="" />
             </div>
-            <p>In our <code>Blog</code> component we can then return the object. If there is multiple properties, a <code>map()</code> or <code>filter()</code> high order function would be needed to display every single one of them in our component</p>
+            <p>In our <code>Blog</code> component we can then return the object. If there are multiple properties, a <code>map()</code> or <code>filter()</code> high order function would be needed to display every single one of them in our component</p>
             <div>
                 <img src={setUseParams3} alt="" />
             </div>
