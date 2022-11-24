@@ -1,4 +1,5 @@
 import LinkSection from "../sub-components/router-sub-components/LinkSetup";
+import ParamsSection from "../sub-components/router-sub-components/ParamsSection";
 import SetUp from "../sub-components/router-sub-components/SetUp";
 import UseNavigateSection from "../sub-components/router-sub-components/UseNavigateSection";
 
@@ -8,6 +9,7 @@ function RouterSection() {
             <SetUp/>
             <LinkSection/>
             <UseNavigateSection/>
+            <ParamsSection/>
         </div>
      );
 }
